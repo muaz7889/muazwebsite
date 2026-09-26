@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muaz Website - ማጋሪያ ፕላትፎርም</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 15px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #1e293b;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            color: #38bdf8;
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+        header p {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+        .section-title {
+            font-size: 18px;
+            margin: 25px 0 15px 0;
+            border-left: 4px solid #38bdf8;
+            padding-left: 10px;
+            color: #e2e8f0;
+        }
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .card {
+            background-color: #1e293b;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #f1f5f9;
+        }
+        .card p {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 12px;
+        }
+        /* አዝራሮች እና ሊንኮች */
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #0f172a;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        /* ቪዲዮ ማቀፊያ */
+        video {
+            width: 100%;
+            border-radius: 8px;
+            background-color: #000;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 15px;
+            color: #64748b;
+            font-size: 12px;
+            border-top: 1px solid #1e293b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Muaz Website</h1>
+        <p>የተለያዩ አፕሊኬሽኖች፣ ቪዲዮዎች እና መረጃዎች ማጋሪያ ገጽ</p>
+    </header>
+
+    <!-- 1. አፕሊኬሽኖች የሚለቀቁበት ክፍል -->
+    <div class="section-title">📱 አፕሊኬሽኖች (Apps)</div>
+    <div class="card-container">
+        <div class="card">
+            <h3>የመጀመሪያው አፕ ስም</h3>
+            <p>ይህንን አፕ ከታች ባለው አዝራር በመጫን ማውረድ ይችላሉ።</p>
+            <a href="የአፕ_ማውረጃ_ሊንክ_እዚህ_ይည့်" class="btn" target="_blank">አፕ አውርድ (Download)</a>
+        </div>
+    </div>
+
+    <!-- 2. ቪዲዮዎች የሚለቀቁበት ክፍል -->
+    <div class="section-title">🎬 ቪዲዮዎች (Videos)</div>
+    <div class="card-container">
+        <div class="card">
+            <h3>የቪዲዮ ርዕስ እዚህ ይጻፍ</h3>
+            <p>አስደሳች ወይም አስተማሪ አጭር ቪዲዮ።</p>
+            <video controls>
+                <source src="የቪዲዮ_ፋይል_ስም.mp4" type="video/mp4">
+                የእርስዎ ብራውዘር ቪዲዮውን ማጫወት አልቻለም።
+            </video>
+        </div>
+    </div>
+
+    <!-- 3. ሌሎች መረጃዎች ወይም ጽሁፎች -->
+    <div class="section-title">📝 ሌሎች መረጃዎች</div>
+    <div class="card-container">
+        <div class="card">
+            <h3>ማስታወሻ ወይም መግለጫ</h3>
+            <p>ማንኛውንም επιለጭ ጽሁፍ ወይም ማስታወሻ በዚህ ክፍል ውስጥ ማስቀመጥ ይቻላል።</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Muaz Website. መብቱ በህግ የተጠበቀ ነው።</p>
+    </footer>
+
+</body>
+</html>
